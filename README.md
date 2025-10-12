@@ -1,22 +1,22 @@
-# 🍦 Previsão de Vendas de Sorvete com AutoML
+#  Previsão de Vendas de Sorvete com AutoML
 
 Este projeto utiliza o Azure Machine Learning com AutoML para prever vendas de sorvete com base na temperatura. O modelo foi treinado, avaliado, registrado e utilizado dentro de um notebook interativo.
 
 ---
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 modelo-sorvetes-automl/<br>  ├── inputs/<br> │ └── vendas_sorvete.csv<br> ├── notebooks/ <br>│ └── modelo_sorvetes.ipynb<br> ├── imagens/<br> │ └── grafico_vendas.png<br> ├── README.md
 
 
 ---
 
-## 🧠 Objetivo
+##  Objetivo
 
 Prever a quantidade de sorvete vendida com base na temperatura, utilizando aprendizado de máquina automatizado (AutoML) no Azure ML Studio.
 
 ---
 
-## ⚙️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - Azure Machine Learning Studio
 - AutoML
@@ -27,7 +27,7 @@ Prever a quantidade de sorvete vendida com base na temperatura, utilizando apren
 
 ---
 
-## 📊 Resultados do Modelo AutoML
+##  Resultados do Modelo AutoML
 
 Abaixo estão as métricas de desempenho obtidas após o treinamento do modelo de previsão de vendas de sorvete com base na temperatura:
 
@@ -51,7 +51,7 @@ Esses resultados indicam que o modelo possui excelente capacidade preditiva, com
 
 ---
 
-## 📈 Gráfico de Avaliação
+##  Gráfico de Avaliação
 
 Comparação entre vendas reais e previstas:
 
@@ -60,7 +60,7 @@ Comparação entre vendas reais e previstas:
 
 ---
 
-## 📓 Notebook: `piperline_sorvetes.ipynb`
+##  Notebook: `piperline_sorvetes.ipynb`
 
 O notebook contém:
 
@@ -70,7 +70,7 @@ O notebook contém:
 - Previsão com base na temperatura
 - Visualização dos resultados
 
-### 🔍 Exemplo de Uso
+###  Exemplo de Uso
 
 ```python
 from azureml.core import Workspace, Model
@@ -92,7 +92,7 @@ previsao = modelo_mlflow.predict(df_entrada)
 print("Previsão de vendas:", previsao[0])
 ```
 ---
-## 🧠 Conclusão e Aprendizados
+##  Conclusão e Aprendizados
 
 Este projeto foi uma jornada prática e enriquecedora no uso de inteligência artificial para resolver um problema real: prever vendas de sorvete com base na temperatura. Ao longo do processo, foi possível aprender como:
 
