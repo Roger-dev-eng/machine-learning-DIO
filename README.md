@@ -5,8 +5,20 @@ Este projeto utiliza o Azure Machine Learning com AutoML para prever vendas de s
 ---
 
 ##  Estrutura do Projeto
-modelo-sorvetes-automl/<br>  ├── inputs/<br> │ └── vendas_sorvete.csv<br> ├── notebooks/ <br>│ └── modelo_sorvetes.ipynb<br> ├── imagens/<br> │ └── grafico_vendas.png<br> ├── README.md
-
+```
+modelo-sorvetes-automl/  
+├── inputs/
+│ └── sorvetes.csv
+│ 
+├── notebooks/ 
+│ └── piperline_sorvete.ipynb
+│ 
+├── imagens/ 
+│ └── grafico.jpeg
+│ └── tabela.png
+│ 
+├── README.md
+```
 
 ---
 
